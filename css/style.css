@@ -1,0 +1,49 @@
+body {
+    padding     : 20px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#title {
+    font-size : 50px;
+}
+
+#main {
+    background      : #EEE;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : center;
+}
+
+#img-div {
+    background     : #FFF;
+    padding        : 30px 10px;
+    width          : 100%;
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+}
+
+#img-div img {
+    max-width : 100%
+}
+
+#img-div figcaption {
+    margin : 10px 0;
+}
+#tribute-info {
+    max-width : 600px
+}
+#tribute-info > h2 {
+    text-align: center;
+    margin : 46px 0;
+}
+
+#tribute-info ul li {
+    margin : 22px 0;
+}
+
+.credit {
+    font-size   : 20px;
+    font-weight : bold;
+}
